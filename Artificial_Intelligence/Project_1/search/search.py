@@ -89,6 +89,29 @@ def depthFirstSearch(problem):
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
     "*** YOUR CODE HERE ***"
+
+    node = problem.getStartState()  # Get inital node
+    # If the problem goal state = node state then return the solution
+    if problem.isGoalState(node):
+        return []
+
+    stack_queue = util.Stack()
+    seen_nodes = []
+    stack_queue.push((node, []))  # Starting node and action
+
+    while not stack_queue.isEmpty():
+        current_node, actions = stack_queue.pop()
+
+        if current_node not in seen_nodes:
+            seen_nodes.append(current_node)
+
+            if problem.isGoalState(current_node):
+                return actions
+
+            for next_node, move, cost in problem.getSuccessors(current_node):
+                new_action = actions + [move]
+                stack_queue.push((next_node, new_action))
+
     util.raiseNotDefined()
 
 
@@ -97,13 +120,14 @@ def breadthFirstSearch(problem):
     "*** YOUR CODE HERE ***"
     node = problem.getStartState()  # initial node
     # if the problem goal state  = node state then return the solution
-    if problem.isGoalState(node['state']):
+    if problem.isGoalState(node):
         return []
 
     # Get a FIFO queue
     fifo_queue = util.Queue()
     # Add an empty list
     seen_nodes = []
+
     # Node and action
     fifo_queue.push((node, []))
 
@@ -115,7 +139,6 @@ def breadthFirstSearch(problem):
 
             if problem.isGoalState(current_node):
                 return actions
-
             for next_node, move, cost in problem.getSuccessors(current_node):
                 new_actions = actions + [move]
                 fifo_queue.push((next_node, new_actions))
