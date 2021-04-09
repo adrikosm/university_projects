@@ -1,0 +1,271 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Mar 26 13:47:42 2021
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24669 51678 675881 896000) (desktop . "208") "diou@vega" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#DEDEDE") (background-color . "#161A1F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#EEDC82") (sticky) (environment) (frameset--id . "57AB-0A00-F6F5-A64D") (frameset--mini t . t) (height . 52) (width . 201) (modeline . t) (unsplittable) (left . 71) (top . 26) (icon-name) (display . ":1") (explicit-name)) ((min-height . 4) (min-width . 21) (min-height-ignore . 3) (min-width-ignore . 17) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 189) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 153) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1848) (pixel-height . 932) (total-width . 205) (total-height . 51) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 921) (pixel-height . 932) (total-width . 102) (total-height . 51) (normal-height . 1.0) (normal-width . 0.5) (buffer "assignment.tex<1_search>" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 5) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 378) (start . 1))) (leaf (last . t) (pixel-width . 927) (pixel-height . 932) (total-width . 103) (total-height . 51) (normal-height . 1.0) (normal-width . 0.5) (buffer "assignment.pdf" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 20) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("pmintP" "exer" "minted" "python" "†¶†ó" "foodsearch" " †ê†á†é " "source" "layouts"))
+(setq regexp-search-ring nil)
+(setq register-alist (list (list "zygospore-windows-time-machine" "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook `(lambda nil (set-marker ,mk ,74681 (get-buffer ,"*tex-shell*")))) mk))))
+(setq file-name-history '("/mnt/data/hua/git/courses/23AI/projects/1_search/text/assignment.pdf" "/mnt/data/hua/git/courses/23AI/projects/1_search/text/preamble.tex" "/mnt/data/hua/git/courses/23AI/projects/0_tutorial/text/assignment.tex" "/mnt/data/hua/git/courses/23AI/projects/1_search/text/assignment.tex" "/mnt/data/hua/git/courses/23AI/projects/1_search/text/Makefile" "/mnt/data/hua/git/courses/23AI/homework/preamble.tex" "/mnt/data/hua/git/courses/23AI/homework/hw1.pdf" "/mnt/data/hua/git/courses/23AI/homework/hw1.tex" "/mnt/data/hua/git/courses/23AI/homework/figures/graph_heuristics.tex" "/mnt/data/hua/git/courses/34AIApplications/slides/figures/neural_network_backprop.tex" "/mnt/data/hua/git/courses/23AI/homework/Makefile" "/mnt/data/hua/git/courses/23AI/exercises/exercises1.tex" "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/searchAgents.py" "/mnt/data/hua/git/courses/23AI/exercises/exercises1.pdf" "/mnt/data/hua/git/courses/23AI/exercises/preamble.tex" "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/layout.py" "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/game.py" "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/pacman.py" "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/util.py" "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/search.py" "~/git/courses/23AI/pacman-projects/prep20/search/grading.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/projects/1_search/text/assignment.tex"
+  "assignment.tex"
+  'plain-tex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode magit-file-mode)
+  378
+  '(12085 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24669 47502 992192 362000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (11973 11970 11805 11750 11644 11538 10896 9084 7860 6844 6127 5057 4640 2694 10607 10589 10456 9061 10315 9849 9783 9734 9700 8215 8062 8041 7448 7953 7581 7560 7469 6597 5894 5800 5710 4851 5313 5284 4262 4941 4178 4098 4020 3087 3108 2597 7937 10874 9062 7838 6822 6897 6105 6700 5035 5107 2672 2470 12086 1443 919 434 2740 8137 12071 10492 9009 378))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/projects/1_search/text/assignment.pdf"
+  "assignment.pdf"
+  'pdf-view-mode
+  '(company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24669 47502 992453 981000) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/homework/hw1.pdf"
+  "hw1.pdf"
+  'pdf-view-mode
+  '(company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode magit-file-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24668 62324 172304 908000) (buffer-file-coding-system . no-conversion))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/projects/0_tutorial/text/assignment.tex"
+  "assignment.tex"
+  'plain-tex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode magit-file-mode)
+  5913
+  '(333 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 62036 446593 659000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2282 2164 3023))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/projects/1_search/text/preamble.tex"
+  "preamble.tex"
+  'latex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode magit-file-mode)
+  3920
+  '(3858 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 62014 944666 396000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2114 1))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/projects/1_search/text/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode yas-minor-mode linum-mode magit-file-mode)
+  22
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 24668 60386 180664 789000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/homework/hw1.tex"
+  "hw1.tex"
+  'latex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode magit-file-mode)
+  1142
+  '(4662 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 60356 760795 231000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1235 1348 3617 2354 2201 4664 2664 2034 1417 1682 1650 1710 1738 1734 1706 259 259 6213 435 1417))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/projects/1_search/text/as"
+  "as"
+  'fundamental-mode
+  '(company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24668 60356 740567 320000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/homework/preamble.tex"
+  "preamble.tex"
+  'latex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode magit-file-mode)
+  3437
+  '(584 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 49655 465839 511000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/homework/figures/graph_heuristics.tex"
+  "graph_heuristics.tex"
+  'plain-tex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode magit-file-mode)
+  497
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 49372 66271 206000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/exercises/exercises1.tex"
+  "exercises1.tex"
+  'plain-tex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode auto-revert-mode magit-file-mode)
+  1610
+  '(1459 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 49438 652749 888000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (2481 2482 287 5627 2361))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/homework/Makefile"
+  "Makefile"
+  'makefile-gmake-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode yas-minor-mode linum-mode magit-file-mode)
+  18
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-display-time 24668 44321 254740 709000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/searchAgents.py"
+  "searchAgents.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  21438
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 44052 480021 730000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (21428))))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/exercises/preamble.tex"
+  "preamble.tex"
+  'latex-mode
+  '(auto-fill-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode smartparens-mode linum-mode auto-revert-mode magit-file-mode)
+  150
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24668 40758 525469 134000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/layout.py"
+  "layout.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  5236
+  '(100 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 40463 944471 935000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/pacman.py"
+  "pacman.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  2151
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 40250 380960 863000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/util.py"
+  "util.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  2622
+  '(647 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 40238 254518 418000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/game.py"
+  "game.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  1115
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 40202 969233 952000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/search.py"
+  "search.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  3834
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 40111 745272 954000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/pacman-projects/prep20/search/grading.py"
+  "grading.py"
+  'python-mode
+  '(auto-fill-mode eldoc-mode company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode ws-butler-mode anzu-mode smartparens-mode elpy-mode highlight-indentation-mode yas-minor-mode flycheck-mode linum-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24668 39894 711514 413000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data/hua/git/courses/23AI/exercises/exercises1.pdf"
+  "exercises1.pdf"
+  'pdf-view-mode
+  '(company-mode projectile-mode override-global-mode helm-mode volatile-highlights-mode undo-tree-mode anzu-mode magit-file-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24668 40775 887100 3000) (buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
