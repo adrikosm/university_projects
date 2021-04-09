@@ -95,20 +95,32 @@ def depthFirstSearch(problem):
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    print("Start:", problem.getStartState())
-    print("Is the start a goal?", problem.isGoalState(problem.getStartState()))
-    print("Start's successors:", problem.getSuccessors(problem.getStartState()))
-
-    node = {'state': problem.getStartState(), 'cost': 0}  # Initial Node
+    node = problem.getStartState()  # initial node
     # if the problem goal state  = node state then return the solution
     if problem.isGoalState(node['state']):
         return []
-    # Get a FIFO queue with the node as the only element
-    fifo_queue = util.Queue()
-    fifo_queue.add(node)
-    
 
-# util.raiseNotDefined()
+    # Get a FIFO queue
+    fifo_queue = util.Queue()
+    # Add an empty list
+    seen_nodes = []
+    # Node and action
+    fifo_queue.push((node, []))
+
+    while not fifo_queue.isEmpty():
+        current_node, actions = fifo_queue.pop()  # removes shallowest
+
+        if current_node not in seen_nodes:
+            seen_nodes.append(current_node)
+
+            if problem.isGoalState(current_node):
+                return actions
+
+            for next_node, move, cost in problem.getSuccessors(current_node):
+                new_actions = actions + [move]
+                fifo_queue.push((next_node, new_actions))
+
+    util.raiseNotDefined()
 
 
 def uniformCostSearch(problem):
