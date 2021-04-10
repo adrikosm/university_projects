@@ -510,7 +510,15 @@ def foodHeuristic(state, problem):
     """
     position, foodGrid = state
     "*** YOUR CODE HERE ***"
-    return 0
+    my_points = foodGrid.asList()
+    distance = []
+    if len(my_points) == 0:
+        return 0
+
+    for x, y in my_points:
+        pac_position = (x, y)
+        distance.append(mazeDistance(position, pac_position, problem.startingGameState))
+    return max(distance)
 
 
 class ClosestDotSearchAgent(SearchAgent):
@@ -543,7 +551,7 @@ class ClosestDotSearchAgent(SearchAgent):
         problem = AnyFoodSearchProblem(gameState)
 
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        return search.astar(problem)
 
 
 class AnyFoodSearchProblem(PositionSearchProblem):
@@ -577,10 +585,14 @@ class AnyFoodSearchProblem(PositionSearchProblem):
         The state is Pacman's position. Fill this in with a goal test that will
         complete the problem definition.
         """
-        x, y = state
-
+        # x, y = state()
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        # Greedy search to find the closest dot
+        _, goal = min([(util.manhattanDistance(state, goal), goal) for goal in self.food.asList()])
+        if state == goal:
+            return True
+        else:
+            return False
 
 
 def mazeDistance(point1, point2, gameState):
