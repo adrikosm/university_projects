@@ -305,7 +305,7 @@ class CornersProblem(search.SearchProblem):
         space)
         """
         "*** YOUR CODE HERE ***"
-        return (self.startingPosition, [])
+        return self.startingPosition, []
         util.raiseNotDefined()
 
     def isGoalState(self, state):
@@ -313,14 +313,10 @@ class CornersProblem(search.SearchProblem):
         Returns whether this search state is a goal state of the problem.
         """
         "*** YOUR CODE HERE ***"
-        node = state[0]
-        seen_corners = state[1]
-
-        if node in self.corners:
-            if not node in seen_corners:
-                seen_corners.append(node)
-            return len(seen_corners) == 4
-        return False
+        if len(self.corners) != len(state[1]):
+            return False
+        else:
+            return True
         util.raiseNotDefined()
 
     def getSuccessors(self, state):
@@ -396,6 +392,7 @@ def cornersHeuristic(state, problem):
     "*** YOUR CODE HERE ***"
     visited_corners = state[1]
     corners_left = []
+
     for corner in corners:
         if corner not in visited_corners:
             corners_left.append(corner)
@@ -551,7 +548,7 @@ class ClosestDotSearchAgent(SearchAgent):
         problem = AnyFoodSearchProblem(gameState)
 
         "*** YOUR CODE HERE ***"
-        return search.astar(problem)
+        return search.astar(problem)  # The Fastest algorithm
 
 
 class AnyFoodSearchProblem(PositionSearchProblem):
