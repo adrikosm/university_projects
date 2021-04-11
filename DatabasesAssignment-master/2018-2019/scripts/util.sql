@@ -1,0 +1,22 @@
+-- Source: https://stackoverflow.com/a/1801453
+
+-- DROP TABLE IF EXISTS
+CREATE OR REPLACE PROCEDURE drop_table(table_name IN CHAR) IS
+  BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE ' || table_name;
+    EXCEPTION WHEN OTHERS THEN
+    IF SQLCODE != -942 THEN RAISE;
+    END IF;
+  END;
+/
+
+-- DROP INDEX IF EXISTS
+CREATE OR REPLACE PROCEDURE drop_index(index_name IN CHAR) IS
+  BEGIN
+    EXECUTE IMMEDIATE 'DROP INDEX ' || index_name;
+    EXCEPTION WHEN OTHERS THEN
+    IF SQLCODE != -1418 THEN RAISE;
+    END IF;
+  END;
+/
+

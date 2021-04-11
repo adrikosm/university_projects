@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+.idea
+*.iml
+out
+gen
+_build
+.lvimrc

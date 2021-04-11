@@ -1,0 +1,21 @@
+{%- extends '!layout.html' %}
+{%- block extrahead %}
+  {{ super() }}
+  <style type="text/css">
+    body { font-family: 'Lato', 'Helvetica', sans-serif }
+    code, pre { font-family: 'Hack', monospace }
+    pre { padding: 7px 12.5px }
+    h1, th, td:not(.code) { text-align: center !important }
+    table:not(.highlighttable) { page-break-inside: avoid }
+    #id3, #id4 { page-break-before: always }
+  </style>
+{% endblock %}
+{%- block footer %}
+  <div class="footer">
+    Ηαροκόπειο Πανεπιστήμιο 2018-2019 |
+    Ιωάννης Σομος - 21685,
+    Ευάγγελος Κοντός - 21641,
+    Ανδρέας Μαυρόπουλος - 217129
+  </div>
+{% endblock %}
+

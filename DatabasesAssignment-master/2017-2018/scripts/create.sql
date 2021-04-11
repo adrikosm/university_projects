@@ -1,0 +1,100 @@
+DROP TABLE DAILY_STATISTICS;
+DROP TABLE MONTHLY_STATISTICS;
+DROP TABLE MEASUREMENT;
+DROP TABLE SENSOR;
+DROP TABLE WEATHER_STATION;
+
+CREATE TABLE WEATHER_STATION (
+  City VARCHAR2(200) NOT NULL,
+  Prefecture VARCHAR2(60) NOT NULL,
+  StationOP VARCHAR2(6) NOT NULL,
+  Altitude NUMBER(4) NOT NULL,
+  Latitude NUMBER(8,6),
+  Longitude NUMBER(8,6),
+  CONSTRAINT pk_Station
+  PRIMARY KEY (City),
+  CONSTRAINT ckl_StationLat
+  CHECK (Latitude
+    BETWEEN -90 AND 90
+  ),
+  CONSTRAINT ckl_StationLon
+  CHECK (Longitude
+    BETWEEN -180 AND 180
+  )
+);
+
+CREATE TABLE SENSOR (
+  SerialNumber NUMBER(6) NOT NULL,
+  CityPlaced VARCHAR2(200) NOT NULL,
+  SensorModel VARCHAR(10),
+  MinimValue NUMBER(4,1) NOT NULL,
+  MaximValue NUMBER(5,1) NOT NULL,
+  Unit VARCHAR2(7) NOT NULL,
+  SensorType VARCHAR2(12) NOT NULL,
+  Operating NUMBER(1) DEFAULT 1,
+  CONSTRAINT pk_Sensor
+  PRIMARY KEY (SerialNumber),
+  CONSTRAINT fk_City
+  FOREIGN KEY (CityPlaced)
+  REFERENCES WEATHER_STATION (City)
+  ON DELETE CASCADE,
+  CONSTRAINT ckl_Operating
+  CHECK (Operating IN (0,1)), -- 0: False, 1: True
+  CONSTRAINT ckl_SensorType
+  CHECK (SensorType
+    IN ('Temperature', 'Humidity', 'Pressure', 'Wind')
+  )
+);
+
+CREATE TABLE MEASUREMENT (
+  SensorID NUMBER(6) NOT NULL,
+  DateTime DATE DEFAULT SYSDATE NOT NULL,
+  MeasValue NUMBER(5,1) NOT NULL,
+  CONSTRAINT pk_Meas
+  PRIMARY KEY (DateTime, SensorID),
+  CONSTRAINT fk_SensorID
+  FOREIGN KEY (SensorID)
+  REFERENCES SENSOR (SerialNumber)
+  ON DELETE CASCADE
+);
+
+CREATE TABLE DAILY_STATISTICS (
+  DayID DATE DEFAULT TO_DATE(TO_CHAR(SYSDATE, 'DD/MM/YY'), 'DD/MM/YY') NOT NULL,
+  D_StatType VARCHAR2(12) NOT NULL,
+  D_StatCity VARCHAR2(200) NOT NULL,
+  D_StatMin NUMBER(5,1) DEFAULT 0.0,
+  D_StatMax NUMBER(5,1) DEFAULT 0.0,
+  D_StatAvg NUMBER(5,1) DEFAULT 0.0,
+  CONSTRAINT pk_D_Stat
+  PRIMARY KEY (DayID, D_StatType, D_StatCity),
+  CONSTRAINT fk_D_StatCity
+  FOREIGN KEY (D_StatCity)
+  REFERENCES WEATHER_STATION (City)
+  ON DELETE CASCADE,
+  CONSTRAINT ckl_D_StatType
+  CHECK (D_StatType
+    IN ('Temperature', 'Humidity', 'Pressure', 'Wind')
+  )
+);
+
+CREATE TABLE MONTHLY_STATISTICS (
+  MonthID	DATE DEFAULT TO_DATE(TO_CHAR(SYSDATE, 'MM/YY'), 'MM/YY') NOT NULL,
+  M_StatType VARCHAR2(12) NOT NULL,
+  M_StatCity VARCHAR2(200) NOT NULL,
+  M_StatMin NUMBER(5,1) DEFAULT 0.0,
+  M_StatMax NUMBER(5,1) DEFAULT 0.0,
+  M_StatAvg NUMBER(5,1) DEFAULT 0.0,
+  CONSTRAINT pk_M_Stat
+  PRIMARY KEY (MonthId, M_StatType, M_StatCity),
+  CONSTRAINT fk_M_StatCity
+  FOREIGN KEY (M_StatCity)
+  REFERENCES WEATHER_STATION (City)
+  ON DELETE CASCADE,
+  CONSTRAINT ckl_M_StatType
+  CHECK (M_StatType
+    IN ('Temperature', 'Humidity', 'Pressure', 'Wind')
+  )
+);
+
+COMMIT;
+
