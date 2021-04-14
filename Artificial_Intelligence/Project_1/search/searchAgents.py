@@ -582,7 +582,6 @@ class AnyFoodSearchProblem(PositionSearchProblem):
         The state is Pacman's position. Fill this in with a goal test that will
         complete the problem definition.
         """
-        # x, y = state()
         "*** YOUR CODE HERE ***"
         # Greedy search to find the closest dot
         _, goal = min([(util.manhattanDistance(state, goal), goal) for goal in self.food.asList()])
