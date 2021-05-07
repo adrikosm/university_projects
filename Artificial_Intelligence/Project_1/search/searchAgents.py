@@ -306,7 +306,7 @@ class CornersProblem(search.SearchProblem):
         """
         "*** YOUR CODE HERE ***"
         return self.startingPosition, []
-
+        util.raiseNotDefined()
 
     def isGoalState(self, state):
         """
@@ -318,7 +318,6 @@ class CornersProblem(search.SearchProblem):
         else:
             return True
         util.raiseNotDefined()
-
 
     def getSuccessors(self, state):
         """
