@@ -1,0 +1,151 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1611959977298,952,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-1,,true,,27986,3567,1,2,null,0,17982,415
+1611959977317,1211,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-1,,true,,31214,4329,2,4,null,0,23878,371
+1611959996232,236,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-1,,true,,12902,2204,2,4,null,0,8876,0
+1611960002406,315,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-1,,true,,13105,2173,2,4,null,0,9074,0
+1611960005345,207,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-1,,true,,13133,2173,2,4,null,0,8900,0
+1611959997287,473,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-2,,true,,28032,3567,2,4,null,0,18169,114
+1611960011795,237,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-1,,true,,13359,2197,3,6,null,0,9051,0
+1611959997317,599,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-2,,true,,31165,4329,3,6,null,0,24262,151
+1611960015930,237,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-2,,true,,12899,2204,3,6,null,0,8999,0
+1611960022178,167,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-2,,true,,13106,2173,3,6,null,0,8998,0
+1611960025166,166,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-2,,true,,13110,2173,3,6,null,0,8921,0
+1611960017284,401,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-3,,true,,28024,3567,3,6,null,0,18095,89
+1611960031344,189,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-2,,true,,13371,2197,4,8,null,0,8939,0
+1611960017316,445,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-3,,true,,31184,4329,4,8,null,0,24009,87
+1611960035781,162,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-3,,true,,12904,2204,4,8,null,0,9002,0
+1611960014452,946,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-1,,true,,41898,7412,4,8,null,0,29789,89
+1611960041770,173,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-3,,true,,13109,2173,4,8,null,0,9041,0
+1611960044945,168,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-3,,true,,13106,2173,4,8,null,0,9047,0
+1611960037283,409,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-4,,true,,28063,3567,4,8,null,0,18014,87
+1611960021083,1644,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-1,,true,,72319,9403,5,10,null,0,35945,85
+1611960050984,165,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-3,,true,,13373,2197,5,10,null,0,9023,0
+1611960037316,484,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-4,,true,,31184,4329,5,10,null,0,23990,84
+1611960055707,175,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-4,,true,,12898,2204,5,10,null,0,9001,0
+1611960034253,900,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-2,,true,,41896,7412,5,10,null,0,29817,101
+1611960061790,163,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-4,,true,,13112,2173,5,10,null,0,9018,0
+1611960064883,178,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-4,,true,,13107,2173,5,10,null,0,8972,0
+1611960057283,391,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-5,,true,,28043,3567,5,10,null,0,18148,86
+1611960040471,2088,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-2,,true,,72340,9403,5,10,null,0,35888,93
+1611960070971,168,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-4,,true,,13367,2197,5,10,null,0,9064,0
+1611960057316,471,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-5,,true,,31124,4329,5,10,null,0,23920,102
+1611960075821,166,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-5,,true,,12898,2204,5,10,null,0,8935,0
+1611960054161,902,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-3,,true,,41910,7412,5,10,null,0,30006,105
+1611960081706,165,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-5,,true,,13105,2173,5,10,null,0,8911,0
+1611960084923,192,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-5,,true,,13108,2173,5,10,null,0,9063,0
+1611960052914,1057,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-1,,true,,60906,11584,5,10,null,0,42101,0
+1611960060172,1603,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-3,,true,,72339,9403,5,10,null,0,35854,98
+1611960090783,166,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-5,,true,,13370,2197,5,10,null,0,9003,0
+1611960074032,859,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-4,,true,,41904,7412,5,10,null,0,30145,89
+1611960069224,1270,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-1,,true,,92821,10931,5,10,null,0,39029,90
+1611960071626,1048,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-2,,true,,60871,11584,5,10,null,0,41859,0
+1611960080203,1568,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-4,,true,,72368,9403,5,10,null,0,36223,85
+1611960094179,869,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-5,,true,,41917,7412,5,10,null,0,29915,101
+1611960088848,1186,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-2,,true,,92817,10931,5,10,null,0,39200,88
+1611960099953,1549,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-5,,true,,72335,9403,5,10,null,0,36063,88
+1611960095008,1049,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-3,,true,,60895,11584,5,10,null,0,42112,0
+1611960108350,1223,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-3,,true,,92813,10931,5,10,null,0,39008,94
+1611960110904,1020,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-4,,true,,60891,11584,5,10,null,0,41972,0
+1611960115006,1052,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-1,,true,,106436,10981,5,10,null,0,38895,0
+1611960105715,1435,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 20, number of failing samples : 0",Game Cards 1-1,,true,,58840,16091,5,10,null,0,59836,85
+1611960121574,1162,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-2,,true,,53737,11987,5,10,null,0,44954,105
+1611960129360,1149,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-4,,true,,92825,10931,5,10,null,0,38985,87
+1611960137121,1027,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-5,,true,,60867,11584,5,10,null,0,42135,0
+1611960140031,1071,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-2,,true,,106430,10981,5,10,null,0,39246,0
+1611960149925,1246,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-5,,true,,92822,10931,5,10,null,0,38911,103
+1611960159259,1186,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-1,,true,,105966,11392,5,10,null,0,39058,97
+1611960160437,1064,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-3,,true,,106438,10981,5,10,null,0,38988,0
+1611960144175,1401,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 20, number of failing samples : 0",Game Cards 1-3,,true,,58804,16091,5,10,null,0,59801,88
+1611960163837,1143,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-4,,true,,53733,11987,5,10,null,0,44793,89
+1611960178191,1198,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-4,,true,,106433,10981,5,10,null,0,39175,0
+1611960177803,1061,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-1,,true,,51076,11280,5,10,null,0,42003,101
+1611960180620,1048,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-2,,true,,51098,11280,5,10,null,0,41698,89
+1611960185197,1228,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-2,,true,,105965,11392,5,10,null,0,39116,107
+1611960190373,1131,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-5,,true,,53751,11987,5,10,null,0,45010,89
+1611960196683,1114,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-5,,true,,106454,10981,5,10,null,0,39044,0
+1611960220868,387,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-1,,true,,28062,3567,5,10,null,0,18172,86
+1611960223369,467,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-2,,true,,27977,3567,5,10,null,0,18038,117
+1611960205332,1246,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-3,,true,,105966,11392,5,10,null,0,38932,93
+1611960239428,172,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-1,,true,,12902,2204,5,10,null,0,8952,0
+1611960241874,163,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-2,,true,,12901,2204,5,10,null,0,8988,0
+1611960212971,1079,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-3,,true,,51111,11280,5,10,null,0,42004,85
+1611960248551,164,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-1,,true,,13104,2173,5,10,null,0,8990,0
+1611960251025,169,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-2,,true,,13108,2173,5,10,null,0,8907,0
+1611960222882,1212,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-4,,true,,105963,11392,5,10,null,0,38901,87
+1611960220354,1066,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-4,,true,,51073,11280,5,10,null,0,42165,89
+1611960256055,428,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-3,,true,,28018,3567,5,10,null,0,18008,85
+1611960208081,1669,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-1,,true,,97437,13998,5,10,null,0,67487,90
+1611960241138,1167,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-5,,true,,105958,11392,5,10,null,0,39102,91
+1611960263587,388,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-4,,true,,27995,3567,5,10,null,0,17977,89
+1611960274490,174,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-3,,true,,12902,2204,5,10,null,0,9010,0
+1611960245010,1044,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-5,,true,,51082,11280,5,10,null,0,41945,95
+1611960257705,841,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-1,,true,,41891,7412,5,10,null,0,29860,88
+1611960281952,182,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-4,,true,,12894,2204,5,10,null,0,8918,0
+1611960260101,852,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-2,,true,,41912,7412,5,10,null,0,30122,96
+1611960283674,162,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-3,,true,,13105,2173,5,10,null,0,9097,0
+1611960291053,163,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-4,,true,,13109,2173,5,10,null,0,8986,0
+1611960277238,500,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-1,,true,,31208,4329,5,10,null,0,23917,127
+1611960288001,432,Home,200,"Number of samples in transaction : 6, number of failing samples : 0",Game Cards 1-5,,true,,28014,3567,5,10,null,0,18020,121
+1611960238396,1627,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-2,,true,,97399,13998,5,10,null,0,67795,90
+1611960301656,161,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-1,,true,,13110,2173,5,10,null,0,9064,0
+1611960306453,166,Gaming,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-5,,true,,12901,2204,5,10,null,0,9044,0
+1611960310880,165,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-1,,true,,13371,2197,5,10,null,0,9081,0
+1611960252028,1631,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-3,,true,,97404,13998,5,10,null,0,67901,89
+1611960292934,836,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-3,,true,,41908,7412,5,10,null,0,29976,85
+1611960315663,161,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Game Cards 1-5,,true,,13116,2173,5,10,null,0,9025,0
+1611960300202,846,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-4,,true,,41886,7412,5,10,null,0,29839,89
+1611960307818,482,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-2,,true,,31159,4329,5,10,null,0,23797,86
+1611960332097,161,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-2,,true,,13105,2173,5,10,null,0,8942,0
+1611960272190,1766,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-4,,true,,97446,13998,5,10,null,0,67938,89
+1611960300232,1090,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-2,,true,,60871,11584,5,10,null,0,42235,0
+1611960300631,1132,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-1,,true,,60877,11584,5,10,null,0,42165,0
+1611960321561,469,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-3,,true,,31166,4329,5,10,null,0,24059,105
+1611960341200,160,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-2,,true,,13364,2197,5,10,null,0,9080,0
+1611960346089,166,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-3,,true,,13110,2173,5,10,null,0,8958,0
+1611960324850,881,Game Cards,200,"Number of samples in transaction : 10, number of failing samples : 0",Game Cards 1-5,,true,,41878,7412,5,10,null,0,30070,96
+1611960320126,1672,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-1,,true,,72305,9403,5,10,null,0,35974,89
+1611960293194,1673,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-5,,true,,97435,13998,5,10,null,0,68251,87
+1611960355214,163,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-3,,true,,13366,2197,5,10,null,0,9057,0
+1611960341895,451,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-4,,true,,31166,4329,5,10,null,0,24172,89
+1611960366518,185,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-4,,true,,13105,2173,5,10,null,0,8980,0
+1611960333195,1005,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-3,,true,,60874,11584,5,10,null,0,41825,0
+1611960341978,1027,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-4,,true,,60863,11584,5,10,null,0,41817,0
+1611960375684,172,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-4,,true,,13367,2197,5,10,null,0,8985,0
+1611960363119,438,Home,200,"Number of samples in transaction : 8, number of failing samples : 0",Mobile Phones 2-5,,true,,31151,4329,5,10,null,0,24063,87
+1611960350441,1595,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-2,,true,,72292,9403,5,10,null,0,36050,91
+1611960349321,1122,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-2,,true,,53731,11987,5,10,null,0,45323,88
+1611960387620,163,Τεχνολογία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-5,,true,,13111,2173,5,10,null,0,8834,0
+1611960364434,1523,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-3,,true,,72271,9403,5,10,null,0,36245,86
+1611960356399,1169,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-1,,true,,53732,11987,5,10,null,0,45006,88
+1611960396618,168,Κινητή Τηλεφωνία,200,"Number of samples in transaction : 3, number of failing samples : 0",Mobile Phones 2-5,,true,,13370,2197,5,10,null,0,8993,0
+1611960363594,1028,Riot League of Legends Pre-Paid Card 10 Euro (1380RP),200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-5,,true,,60879,11584,5,10,null,0,42141,0
+1611960369903,1311,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-1,,true,,92848,10931,5,10,null,0,39149,90
+1611960384840,1543,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-4,,true,,72269,9403,5,10,null,0,35900,87
+1611960385259,1141,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-3,,true,,53734,11987,5,10,null,0,45074,89
+1611960391960,1105,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-4,,true,,53763,11987,5,10,null,0,44909,90
+1611960400419,1174,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-2,,true,,92827,10931,5,10,null,0,39018,84
+1611960405779,1512,Κινητά Τηλέφωνα,200,"Number of samples in transaction : 12, number of failing samples : 0",Mobile Phones 2-5,,true,,72254,9403,5,10,null,0,36144,85
+1611960402698,1073,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-2,,true,,51107,11280,5,10,null,0,41886,86
+1611960412538,1172,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-3,,true,,92824,10931,5,9,null,0,38860,90
+1611960411289,1050,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-1,,true,,51078,11280,4,9,null,0,42073,86
+1611960418573,1129,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-1,,true,,106432,10981,5,8,null,0,38929,0
+1611960412837,1188,Blizzard World Of Warcraft 60 Day Prepaid Card PC,200,"Number of samples in transaction : 15, number of failing samples : 0",Game Cards 1-5,,true,,53751,11987,3,8,null,0,45098,96
+1611960434365,1194,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-4,,true,,92829,10931,5,8,null,0,38986,89
+1611960441260,1129,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-3,,true,,51081,11280,3,8,null,0,42179,86
+1611960449895,1209,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-2,,true,,106433,10981,5,7,null,0,39369,0
+1611960447769,1139,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-4,,true,,51102,11280,2,7,null,0,42123,87
+1611960451061,1332,Xiaomi Redmi Note 9 (128GB) Midnight Gray,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-5,,true,,92823,10931,5,6,null,0,39005,88
+1611960461684,1031,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-3,,true,,106453,10981,5,6,null,0,39109,0
+1611960463118,1366,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-1,,true,,105980,11392,5,6,null,0,39128,96
+1611960465978,1055,EA - Electronic Arts FIFA 15 Ultimate Team 2200 Points PC,200,"Number of samples in transaction : 14, number of failing samples : 0",Game Cards 1-5,,true,,51069,11280,1,6,null,0,42159,98
+1611960485939,1103,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-4,,true,,106437,10981,5,5,null,0,39181,0
+1611960494901,1268,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-2,,true,,105967,11392,5,5,null,0,38986,90
+1611960498708,1181,Huawei P40 Lite (128GB) Midnight Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-5,,true,,106436,10981,5,5,null,0,39071,0
+1611960506803,1513,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-3,,true,,105983,11392,5,5,null,0,39093,86
+1611960531208,1394,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-4,,true,,105974,11392,5,5,null,0,38774,89
+1611960514104,2044,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-1,,true,,97208,13998,5,5,null,0,68093,88
+1611960544201,1363,Samsung Galaxy A51 (128GB) Prism Crush Black,200,"Number of samples in transaction : 13, number of failing samples : 0",Mobile Phones 2-5,,true,,105961,11392,4,4,null,0,38811,89
+1611960540789,2236,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-2,,true,,97170,13998,4,4,null,0,68230,92
+1611960556751,2571,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-3,,true,,97175,13998,3,3,null,0,68010,90
+1611960577711,2841,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-4,,true,,97200,13998,2,2,null,0,67977,279
+1611960590601,2659,OnePlus Nord N100 (64GB) Midnight Frost,200,"Number of samples in transaction : 17, number of failing samples : 0",Mobile Phones 2-5,,true,,97186,13998,1,1,null,0,67762,178
