@@ -141,9 +141,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
         node_store = []  # Used to store value for node action
         node_action = gameState.getLegalActions(agentIndex)  # Used to store actions
 
-        if Directions.STOP in node_action:
-            node_action.remove(Directions.STOP)  # Removes the stop actions
-
         for action in node_action:
             successor = gameState.generateSuccessor(agentIndex, action)
             if agentIndex + 1 >= gameState.getNumAgents():
@@ -157,9 +154,9 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 for i in range(len(node_store)):
                     if node_store[i] == max_score:
                         return node_action[i]
-            else:  # Else return the node value
+            else:  # Else return the max node value
                 node_val = max(node_store)
-
+        # Ghosts
         elif agentIndex > 0:
             node_val = min(node_store)
 
@@ -190,27 +187,79 @@ class MinimaxAgent(MultiAgentSearchAgent):
         """
         "*** YOUR CODE HERE ***"
 
-        pacmanIndex = 0  # Gets root position
-        return self.MiniMax_func(1, pacmanIndex, gameState)
+        return self.MiniMax_func(1, 0, gameState) # Depth , pacmanindex,gamestate
 
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
     Your minimax agent with alpha-beta pruning (question 3)
     """
+    def AlphaBeta_func(self,depth,agentIndex,gameState,a,b):
+        alpha = a
+        beta = b
+
+        # Check game state
+        if gameState.isWin() or gameState.isLose() or depth > self.depth:
+            return self.evaluationFunction(gameState)
+
+
+        node_store = [] # Used to store node actions
+        node_action = gameState.getLegalActions(agentIndex) # Used to store the actions
+
+        for action in node_action:
+            successor = gameState.generateSuccessor(agentIndex,action)
+
+            if agentIndex + 1 >= gameState.getNumAgents():
+                # Use temp_store to compare with alpha,beta
+                temp_store = self.AlphaBeta_func(depth + 1, 0,successor,alpha,beta)
+            else:
+                temp_store = self.AlphaBeta_func(depth,agentIndex + 1,successor,alpha,beta)
+
+            if agentIndex == 0 and temp_store > beta:
+                return temp_store
+            if agentIndex > 0 and temp_store < alpha:
+                return temp_store
+            
+            if agentIndex == 0 and temp_store > alpha:
+                alpha = temp_store
+            if agentIndex > 0 and temp_store < beta:
+                beta = temp_store
+
+            node_store += [temp_store] # Make temp_store a list
+
+        if agentIndex == 0:
+            if depth == 1: # If position is root return the action
+                max_score = max(node_store)
+                for i in range(len(node_store)):
+                    if node_store[i] == max_score:
+                        return node_action[i]
+            else:  # Else return the node value
+                    node_val = max(node_store)
+                    # Ghost
+        elif agentIndex > 0:
+                node_val = min(node_store)
+
+        return node_val
+
+
+        
 
     def getAction(self, gameState):
         """
         Returns the minimax action using self.depth and self.evaluationFunction
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        return self.AlphaBeta_func(1,0,gameState,-10000,100000)# Depth , pacmanindex,gamestate,alpha,beta
 
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
       Your expectimax agent (question 4)
     """
+    def Expectimax_func(self,depth,agentIndex):
+        pass
+
+
 
     def getAction(self, gameState):
         """
