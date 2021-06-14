@@ -187,14 +187,15 @@ class MinimaxAgent(MultiAgentSearchAgent):
         """
         "*** YOUR CODE HERE ***"
 
-        return self.MiniMax_func(1, 0, gameState) # Depth , pacmanindex,gamestate
+        return self.MiniMax_func(1, 0, gameState)  # Depth , pacmanindex,gamestate
 
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
     """
     Your minimax agent with alpha-beta pruning (question 3)
     """
-    def AlphaBeta_func(self,depth,agentIndex,gameState,a,b):
+
+    def AlphaBeta_func(self, depth, agentIndex, gameState, a, b):
         alpha = a
         beta = b
 
@@ -202,91 +203,86 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         if gameState.isWin() or gameState.isLose() or depth > self.depth:
             return self.evaluationFunction(gameState)
 
-
-        node_store = [] # Used to store node actions
-        node_action = gameState.getLegalActions(agentIndex) # Used to store the actions
+        node_store = []  # Used to store node actions
+        node_action = gameState.getLegalActions(agentIndex)  # Used to store the actions
 
         for action in node_action:
-            successor = gameState.generateSuccessor(agentIndex,action)
+            successor = gameState.generateSuccessor(agentIndex, action)
 
             if agentIndex + 1 >= gameState.getNumAgents():
                 # Use temp_store to compare with alpha,beta
-                temp_store = self.AlphaBeta_func(depth + 1, 0,successor,alpha,beta)
+                temp_store = self.AlphaBeta_func(depth + 1, 0, successor, alpha, beta)
             else:
-                temp_store = self.AlphaBeta_func(depth,agentIndex + 1,successor,alpha,beta)
+                temp_store = self.AlphaBeta_func(depth, agentIndex + 1, successor, alpha, beta)
 
             if agentIndex == 0 and temp_store > beta:
                 return temp_store
             if agentIndex > 0 and temp_store < alpha:
                 return temp_store
-            
+
             if agentIndex == 0 and temp_store > alpha:
                 alpha = temp_store
             if agentIndex > 0 and temp_store < beta:
                 beta = temp_store
 
-            node_store += [temp_store] # Make temp_store a list
+            node_store += [temp_store]  # Make temp_store a list
 
         if agentIndex == 0:
-            if depth == 1: # If position is root return the action
+            if depth == 1:  # If position is root return the action
                 max_score = max(node_store)
                 for i in range(len(node_store)):
                     if node_store[i] == max_score:
                         return node_action[i]
             else:  # Else return the node value
-                    node_val = max(node_store)
-                    # Ghost
+                node_val = max(node_store)
+                # Ghost
         elif agentIndex > 0:
-                node_val = min(node_store)
+            node_val = min(node_store)
 
         return node_val
-
-
-        
 
     def getAction(self, gameState):
         """
         Returns the minimax action using self.depth and self.evaluationFunction
         """
         "*** YOUR CODE HERE ***"
-        return self.AlphaBeta_func(1,0,gameState,-10000,100000)# Depth , pacmanindex,gamestate,alpha,beta
+        return self.AlphaBeta_func(1, 0, gameState, -10000, 100000)  # Depth , pacmanindex,gamestate,alpha,beta
 
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
       Your expectimax agent (question 4)
     """
-    def Expectimax_func(self,depth,agentIndex,gameState):
+
+    def Expectimax_func(self, depth, agentIndex, gameState):
         # Check game state
         if gameState.isWin() or gameState.isLose() or depth > self.depth:
             return self.evaluationFunction(gameState)
 
-        node_store = [] # Used to store node actions
-        node_action = gameState.getLegalActions(agentIndex) # Used to store the actions
+        node_store = []  # Used to store node actions
+        node_action = gameState.getLegalActions(agentIndex)  # Used to store the actions
 
         for action in node_action:
-            successor = gameState.generateSuccessor(agentIndex,action)
+            successor = gameState.generateSuccessor(agentIndex, action)
             if agentIndex + 1 >= gameState.getNumAgents():
-                node_store += [self.Expectimax_func(depth+1,0,successor)]
+                node_store += [self.Expectimax_func(depth + 1, 0, successor)]
             else:
-                node_store += [self.Expectimax_func(depth,agentIndex+1,successor)]
-        
+                node_store += [self.Expectimax_func(depth, agentIndex + 1, successor)]
+
         if agentIndex == 0:
-            if depth ==1: # If position is root return the action
+            if depth == 1:  # If position is root return the action
                 max_score = max(node_store)
                 for i in range(len(node_store)):
                     if node_store[i] == max_score:
                         return node_action[i]
-            else: # Retrun the node value
+            else:  # Retrun the node value
                 node_val = max(node_store)
         # Ghosts
-        elif agentIndex >0:
+        elif agentIndex > 0:
             p = sum(node_store)
             node_val = float(p / len(node_store))
 
         return node_val
-            
-
 
     def getAction(self, gameState):
         """
@@ -296,7 +292,7 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
         legal moves.
         """
         "*** YOUR CODE HERE ***"
-        return self.Expectimax_func(1,0,gameState) # Depth , pacmanindex,gamestate
+        return self.Expectimax_func(1, 0, gameState)  # Depth , pacmanindex,gamestate
 
 
 def betterEvaluationFunction(currentGameState):
@@ -308,19 +304,20 @@ def betterEvaluationFunction(currentGameState):
     """
 
     "*** YOUR CODE HERE ***"
-    food_position = currentGameState.getFood().asList() # Get food position as list
-    food_distance = [] # Append food distance between pacman and food
-    current_position = list(currentGameState.getPacmanPosition()) # Transform it into list so it can be used 
+    food_position = currentGameState.getFood().asList()  # Get food position as list
+    food_distance = []  # Append food distance between pacman and food
+    current_position = list(currentGameState.getPacmanPosition())  # Transform it into list so it can be used
     current_score = currentGameState.getScore()
 
-    for food in food_position: 
-        food_manhatan_distance = util.manhattanDistance(food,current_position)
+    for food in food_position:
+        food_manhatan_distance = util.manhattanDistance(food, current_position)
         food_distance.append(-1 * food_manhatan_distance)
-    
-    if not food_distance:   # Check if food distance is emtpy
+
+    if not food_distance:  # Check if food distance is emtpy
         food_distance.append(0)
 
     return max(food_distance) + current_score
+
 
 # Abbreviation
 better = betterEvaluationFunction
