@@ -1,0 +1,2068 @@
+SIMAN Run Controller.
+
+1.4202134 Hours>
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 1 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00379     (Insuf)    .00126     .00576        163    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        163    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        163    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        163    
+Reverse car.OtherTime                        3.0675E-4 (Insuf)    .00000     .05000        163    
+Reverse car.TotalTime                       .00410     (Insuf)    .00126     .05317        163    
+Car.VATime                                  .00392      5.6745E-5 .00142     .00575        843    
+Car.NVATime                                 .00000     .00000     .00000     .00000        843    
+Car.WaitTime                                .00000     .00000     .00000     .00000        843    
+Car.TranTime                                .00000     .00000     .00000     .00000        843    
+Car.OtherTime                                6.5243E-4  4.0609E-4 .00000     .05000        843    
+Car.TotalTime                               .00457      3.9932E-4 .00142     .05470        843    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        150    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         34    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        129    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        695    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .16701     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .96367     (Insuf)    .00000     6.0000     2.0000    
+Human.NumberBusy                            .85435     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .17087     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12633     (Insuf)    .00000     3.0000     1.0000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04211     (Insuf)    .00000     1.0000     .33333    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        163.00    
+Reverse car.NumberOut                       163.00    
+Car.NumberIn                                845.00    
+Car.NumberOut                               843.00    
+Human.NumberSeized                          824.00    
+Human.ScheduledUtilization                  .17087    
+Automatic.NumberSeized                      184.00    
+Automatic.ScheduledUtilization              .04211    
+System.NumberOut                            1006.0    
+
+Beginning replication 2 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 2 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00388     (Insuf)    .00168     .00562        151    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        151    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        151    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        151    
+Reverse car.OtherTime                       .00166     (Insuf)    .00000     .05000        151    
+Reverse car.TotalTime                       .00553     (Insuf)    .00168     .05480        151    
+Car.VATime                                  .00396      4.8193E-5 .00126     .00601        753    
+Car.NVATime                                 .00000     .00000     .00000     .00000        753    
+Car.WaitTime                                 7.1676E-7  1.2717E-6 .00000      4.4569E-4    753    
+Car.TranTime                                .00000     .00000     .00000     .00000        753    
+Car.OtherTime                                8.6321E-4  4.9360E-4 .00000     .05000        753    
+Car.TotalTime                               .00482      5.0793E-4 .00126     .05497        753    
+Automatic booth.Queue.WaitingTime            3.4022E-6 (Insuf)    .00000      4.4569E-4    131    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         28    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        123    
+Human booth.Queue.WaitingTime                1.5118E-7  3.1550E-7 .00000      9.4031E-5    622    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .20892     (Insuf)    .00000     4.0000     .00000    
+Car.WIP                                     .90740     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .77778     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .15556     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11340     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03780     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue          1.1142E-4 (Insuf)    .00000     1.0000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              2.3508E-5 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        151.00    
+Reverse car.NumberOut                       151.00    
+Car.NumberIn                                753.00    
+Car.NumberOut                               753.00    
+Human.NumberSeized                          745.00    
+Human.ScheduledUtilization                  .15556    
+Automatic.NumberSeized                      159.00    
+Automatic.ScheduledUtilization              .03780    
+System.NumberOut                            904.00    
+
+Beginning replication 3 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 3 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00399     (Insuf)    .00204     .00555        167    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        167    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        167    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        167    
+Reverse car.OtherTime                       .00120     (Insuf)    .00000     .05000        167    
+Reverse car.TotalTime                       .00519     (Insuf)    .00204     .05484        167    
+Car.VATime                                  .00390      5.3719E-5 .00135     .00590        803    
+Car.NVATime                                 .00000     .00000     .00000     .00000        803    
+Car.WaitTime                                .00000     .00000     .00000     .00000        803    
+Car.TranTime                                .00000     .00000     .00000     .00000        803    
+Car.OtherTime                               .00125      5.5859E-4 .00000     .05000        803    
+Car.TotalTime                               .00515      5.7946E-4 .00135     .05505        803    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        157    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         28    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        139    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        647    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .21665     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0340     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberBusy                            .82086     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16417     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12984     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04328     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        167.00    
+Reverse car.NumberOut                       167.00    
+Car.NumberIn                                804.00    
+Car.NumberOut                               803.00    
+Human.NumberSeized                          786.00    
+Human.ScheduledUtilization                  .16417    
+Automatic.NumberSeized                      185.00    
+Automatic.ScheduledUtilization              .04328    
+System.NumberOut                            970.00    
+
+Beginning replication 4 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 4 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00380     (Insuf)    .00191     .00550        176    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        176    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        176    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        176    
+Reverse car.OtherTime                       .00142     (Insuf)    .00000     .05000        176    
+Reverse car.TotalTime                       .00522     (Insuf)    .00191     .05448        176    
+Car.VATime                                  .00391      4.7923E-5 .00114     .00591        811    
+Car.NVATime                                 .00000     .00000     .00000     .00000        811    
+Car.WaitTime                                 9.3974E-7  1.9663E-6 .00000      7.6213E-4    811    
+Car.TranTime                                .00000     .00000     .00000     .00000        811    
+Car.OtherTime                               .00136      6.5354E-4 .00000     .05000        811    
+Car.TotalTime                               .00527      6.3411E-4 .00114     .05514        811    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        143    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         44    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        132    
+Human booth.Queue.WaitingTime                1.1409E-6  2.4924E-6 .00000      7.6213E-4    668    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .22949     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0681     (Insuf)    .00000     7.0000     .00000    
+Human.NumberBusy                            .83197     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16639     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .12801     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04267     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              1.9053E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        176.00    
+Reverse car.NumberOut                       176.00    
+Car.NumberIn                                811.00    
+Car.NumberOut                               811.00    
+Human.NumberSeized                          800.00    
+Human.ScheduledUtilization                  .16639    
+Automatic.NumberSeized                      187.00    
+Automatic.ScheduledUtilization              .04267    
+System.NumberOut                            987.00    
+
+Beginning replication 5 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 5 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00387     (Insuf)    .00172     .00590        155    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        155    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        155    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        155    
+Reverse car.OtherTime                        6.4516E-4 (Insuf)    .00000     .05000        155    
+Reverse car.TotalTime                       .00452     (Insuf)    .00172     .05477        155    
+Car.VATime                                  .00391      6.4716E-5 .00139     .00560        825    
+Car.NVATime                                 .00000     .00000     .00000     .00000        825    
+Car.WaitTime                                 4.7738E-7  1.0161E-6 .00000      3.9384E-4    825    
+Car.TranTime                                .00000     .00000     .00000     .00000        825    
+Car.OtherTime                               .00109      5.1060E-4 .00000     .05000        825    
+Car.TotalTime                               .00500      5.0431E-4 .00139     .05536        825    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        154    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         28    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        127    
+Human booth.Queue.WaitingTime                5.8607E-7  1.2225E-6 .00000      3.9384E-4    672    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .17513     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0320     (Insuf)    .00000     6.0000     1.0000    
+Human.NumberBusy                            .83071     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16614     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12638     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04213     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              9.8460E-5 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        155.00    
+Reverse car.NumberOut                       155.00    
+Car.NumberIn                                826.00    
+Car.NumberOut                               825.00    
+Human.NumberSeized                          799.00    
+Human.ScheduledUtilization                  .16614    
+Automatic.NumberSeized                      182.00    
+Automatic.ScheduledUtilization              .04213    
+System.NumberOut                            980.00    
+
+Beginning replication 6 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 6 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00384     (Insuf)    .00162     .00554        164    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        164    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        164    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        164    
+Reverse car.OtherTime                        9.1463E-4 (Insuf)    .00000     .05000        164    
+Reverse car.TotalTime                       .00475     (Insuf)    .00162     .05426        164    
+Car.VATime                                  .00388      4.7264E-5 .00135     .00554        827    
+Car.NVATime                                 .00000     .00000     .00000     .00000        827    
+Car.WaitTime                                .00000     .00000     .00000     .00000        827    
+Car.TranTime                                .00000     .00000     .00000     .00000        827    
+Car.OtherTime                                7.8597E-4  5.3058E-4 .00000     .05000        827    
+Car.TotalTime                               .00467      5.3374E-4 .00135     .05542        827    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        158    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         40    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        124    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        670    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .19479     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .96529     (Insuf)    .00000     6.0000     1.0000    
+Human.NumberBusy                            .82352     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16470     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .13656     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04552     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        164.00    
+Reverse car.NumberOut                       164.00    
+Car.NumberIn                                828.00    
+Car.NumberOut                               827.00    
+Human.NumberSeized                          794.00    
+Human.ScheduledUtilization                  .16470    
+Automatic.NumberSeized                      198.00    
+Automatic.ScheduledUtilization              .04552    
+System.NumberOut                            991.00    
+
+Beginning replication 7 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 7 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00390     (Insuf)    .00182     .00544        155    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        155    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        155    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        155    
+Reverse car.OtherTime                       .00161     (Insuf)    .00000     .05000        155    
+Reverse car.TotalTime                       .00551     (Insuf)    .00182     .05438        155    
+Car.VATime                                  .00395      6.5695E-5  9.1727E-4 .00582        805    
+Car.NVATime                                 .00000     .00000     .00000     .00000        805    
+Car.WaitTime                                .00000     .00000     .00000     .00000        805    
+Car.TranTime                                .00000     .00000     .00000     .00000        805    
+Car.OtherTime                               .00124      6.7134E-4 .00000     .05000        805    
+Car.TotalTime                               .00519      6.8446E-4  9.1727E-4 .05545        805    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        144    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         25    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        130    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        661    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .21361     (Insuf)    .00000     4.0000     .00000    
+Car.WIP                                     1.0447     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .82700     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16540     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11884     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03961     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        155.00    
+Reverse car.NumberOut                       155.00    
+Car.NumberIn                                805.00    
+Car.NumberOut                               805.00    
+Human.NumberSeized                          791.00    
+Human.ScheduledUtilization                  .16540    
+Automatic.NumberSeized                      169.00    
+Automatic.ScheduledUtilization              .03961    
+System.NumberOut                            960.00    
+
+Beginning replication 8 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 8 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00393     (Insuf)    .00165     .00542        174    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        174    
+Reverse car.WaitTime                         3.0130E-6 (Insuf)    .00000      5.2426E-4    174    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        174    
+Reverse car.OtherTime                       .00115     (Insuf)    .00000     .05000        174    
+Reverse car.TotalTime                       .00509     (Insuf)    .00165     .05456        174    
+Car.VATime                                  .00395      4.8987E-5 .00107     .00601        794    
+Car.NVATime                                 .00000     .00000     .00000     .00000        794    
+Car.WaitTime                                 7.3211E-7  1.1033E-6 .00000      3.4481E-4    794    
+Car.TranTime                                .00000     .00000     .00000     .00000        794    
+Car.OtherTime                                5.0378E-4  4.6322E-4 .00000     .05000        794    
+Car.TotalTime                               .00446      4.6839E-4 .00107     .05553        794    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        135    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         33    
+Reverse human booth.Queue.WaitingTime        3.7181E-6 (Insuf)    .00000      5.2426E-4    141    
+Human booth.Queue.WaitingTime                8.8208E-7  1.3334E-6 .00000      3.4481E-4    659    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .22121     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .88440     (Insuf)    .00000     5.0000     .00000    
+Human.NumberBusy                            .83702     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16740     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11831     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03944     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue      1.3106E-4 (Insuf)    .00000     1.0000     .00000    
+Human booth.Queue.NumberInQueue              1.4532E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        174.00    
+Reverse car.NumberOut                       174.00    
+Car.NumberIn                                794.00    
+Car.NumberOut                               794.00    
+Human.NumberSeized                          800.00    
+Human.ScheduledUtilization                  .16740    
+Automatic.NumberSeized                      168.00    
+Automatic.ScheduledUtilization              .03944    
+System.NumberOut                            968.00    
+
+Beginning replication 9 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 9 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00386     (Insuf)    .00167     .00562        180    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        180    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        180    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        180    
+Reverse car.OtherTime                       .00167     (Insuf)    .00000     .05000        180    
+Reverse car.TotalTime                       .00553     (Insuf)    .00167     .05458        180    
+Car.VATime                                  .00392      6.1260E-5 .00121     .00579        796    
+Car.NVATime                                 .00000     .00000     .00000     .00000        796    
+Car.WaitTime                                .00000     .00000     .00000     .00000        796    
+Car.TranTime                                .00000     .00000     .00000     .00000        796    
+Car.OtherTime                                9.4221E-4  5.0790E-4 .00000     .05000        796    
+Car.TotalTime                               .00487      5.3694E-4 .00121     .05497        796    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        133    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         35    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        145    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        663    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .24865     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .96825     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .84180     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16836     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11260     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03753     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        180.00    
+Reverse car.NumberOut                       180.00    
+Car.NumberIn                                796.00    
+Car.NumberOut                               796.00    
+Human.NumberSeized                          808.00    
+Human.ScheduledUtilization                  .16836    
+Automatic.NumberSeized                      168.00    
+Automatic.ScheduledUtilization              .03753    
+System.NumberOut                            976.00    
+
+Beginning replication 10 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 10 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00398     (Insuf)    .00188     .00608        140    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        140    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        140    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        140    
+Reverse car.OtherTime                       .00000     (Insuf)    .00000     .00000        140    
+Reverse car.TotalTime                       .00398     (Insuf)    .00188     .00608        140    
+Car.VATime                                  .00389      6.9395E-5 .00143     .00654        817    
+Car.NVATime                                 .00000     .00000     .00000     .00000        817    
+Car.WaitTime                                .00000     .00000     .00000     .00000        817    
+Car.TranTime                                .00000     .00000     .00000     .00000        817    
+Car.OtherTime                                6.7319E-4  4.1966E-4 .00000     .05000        817    
+Car.TotalTime                               .00456      4.4271E-4 .00143     .05522        817    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        171    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         25    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        115    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        646    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .13947     (Insuf)    .00000     2.0000     .00000    
+Car.WIP                                     .93124     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .79550     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .15910     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .13772     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04591     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        140.00    
+Reverse car.NumberOut                       140.00    
+Car.NumberIn                                817.00    
+Car.NumberOut                               817.00    
+Human.NumberSeized                          761.00    
+Human.ScheduledUtilization                  .15910    
+Automatic.NumberSeized                      196.00    
+Automatic.ScheduledUtilization              .04591    
+System.NumberOut                            957.00    
+
+Beginning replication 11 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 11 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00388     (Insuf)    .00203     .00569        166    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        166    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        166    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        166    
+Reverse car.OtherTime                        9.0361E-4 (Insuf)    .00000     .05000        166    
+Reverse car.TotalTime                       .00478     (Insuf)    .00203     .05505        166    
+Car.VATime                                  .00392      5.2786E-5 .00123     .00587        783    
+Car.NVATime                                 .00000     .00000     .00000     .00000        783    
+Car.WaitTime                                .00000     .00000     .00000     .00000        783    
+Car.TranTime                                .00000     .00000     .00000     .00000        783    
+Car.OtherTime                               .00128      5.7286E-4 .00000     .05000        783    
+Car.TotalTime                               .00519      5.8906E-4 .00123     .05531        783    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        144    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         30    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        136    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        640    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .19840     (Insuf)    .00000     2.0000     .00000    
+Car.WIP                                     1.0289     (Insuf)    .00000     5.0000     2.0000    
+Human.NumberBusy                            .80939     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16188     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .11815     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03938     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        166.00    
+Reverse car.NumberOut                       166.00    
+Car.NumberIn                                785.00    
+Car.NumberOut                               783.00    
+Human.NumberSeized                          776.00    
+Human.ScheduledUtilization                  .16188    
+Automatic.NumberSeized                      174.00    
+Automatic.ScheduledUtilization              .03938    
+System.NumberOut                            949.00    
+
+Beginning replication 12 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 12 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00393     (Insuf)    .00198     .00557        157    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        157    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        157    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        157    
+Reverse car.OtherTime                        9.5541E-4 (Insuf)    .00000     .05000        157    
+Reverse car.TotalTime                       .00489     (Insuf)    .00198     .05455        157    
+Car.VATime                                  .00391      5.5421E-5 .00130     .00580        817    
+Car.NVATime                                 .00000     .00000     .00000     .00000        817    
+Car.WaitTime                                 1.0247E-6  2.1599E-6 .00000      8.3716E-4    817    
+Car.TranTime                                .00000     .00000     .00000     .00000        817    
+Car.OtherTime                                4.8960E-4  3.0708E-4 .00000     .05000        817    
+Car.TotalTime                               .00440      3.1316E-4 .00130     .05445        817    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        152    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         29    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        128    
+Human booth.Queue.WaitingTime                1.2570E-6  2.7378E-6 .00000      8.3716E-4    666    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .19181     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .91117     (Insuf)    .00000     7.0000     3.0000    
+Human.NumberBusy                            .83020     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16604     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12319     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04106     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              2.0929E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        157.00    
+Reverse car.NumberOut                       157.00    
+Car.NumberIn                                820.00    
+Car.NumberOut                               817.00    
+Human.NumberSeized                          794.00    
+Human.ScheduledUtilization                  .16604    
+Automatic.NumberSeized                      181.00    
+Automatic.ScheduledUtilization              .04106    
+System.NumberOut                            974.00    
+
+Beginning replication 13 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 13 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00387     (Insuf)    .00185     .00591        145    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        145    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        145    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        145    
+Reverse car.OtherTime                       .00172     (Insuf)    .00000     .05000        145    
+Reverse car.TotalTime                       .00560     (Insuf)    .00185     .05472        145    
+Car.VATime                                  .00388      4.9477E-5 .00150     .00585        761    
+Car.NVATime                                 .00000     .00000     .00000     .00000        761    
+Car.WaitTime                                .00000     .00000     .00000     .00000        761    
+Car.TranTime                                .00000     .00000     .00000     .00000        761    
+Car.OtherTime                                8.5414E-4  4.9176E-4 .00000     .05000        761    
+Car.TotalTime                               .00473      4.9473E-4 .00150     .05478        761    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        150    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         23    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        122    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        612    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .20295     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .90054     (Insuf)    .00000     6.0000     1.0000    
+Human.NumberBusy                            .75848     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .15170     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12000     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04000     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        145.00    
+Reverse car.NumberOut                       145.00    
+Car.NumberIn                                762.00    
+Car.NumberOut                               761.00    
+Human.NumberSeized                          734.00    
+Human.ScheduledUtilization                  .15170    
+Automatic.NumberSeized                      173.00    
+Automatic.ScheduledUtilization              .04000    
+System.NumberOut                            906.00    
+
+Beginning replication 14 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 14 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00390     (Insuf)    .00162     .00565        159    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        159    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        159    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        159    
+Reverse car.OtherTime                       .00126     (Insuf)    .00000     .05000        159    
+Reverse car.TotalTime                       .00515     (Insuf)    .00162     .05565        159    
+Car.VATime                                  .00397      5.9491E-5 .00102     .00617        813    
+Car.NVATime                                 .00000     .00000     .00000     .00000        813    
+Car.WaitTime                                .00000     .00000     .00000     .00000        813    
+Car.TranTime                                .00000     .00000     .00000     .00000        813    
+Car.OtherTime                                7.3801E-4  4.6062E-4 .00000     .05000        813    
+Car.TotalTime                               .00471      4.7135E-4 .00102     .05496        813    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        143    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         29    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        130    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        671    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .20490     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .95725     (Insuf)    .00000     7.0000     1.0000    
+Human.NumberBusy                            .83989     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16798     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12226     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04075     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        159.00    
+Reverse car.NumberOut                       159.00    
+Car.NumberIn                                814.00    
+Car.NumberOut                               813.00    
+Human.NumberSeized                          801.00    
+Human.ScheduledUtilization                  .16798    
+Automatic.NumberSeized                      172.00    
+Automatic.ScheduledUtilization              .04075    
+System.NumberOut                            972.00    
+
+Beginning replication 15 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 15 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00395     (Insuf)    .00158     .00540        174    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        174    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        174    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        174    
+Reverse car.OtherTime                        8.6207E-4 (Insuf)    .00000     .05000        174    
+Reverse car.TotalTime                       .00481     (Insuf)    .00158     .05415        174    
+Car.VATime                                  .00389      5.8754E-5 .00163     .00575        826    
+Car.NVATime                                 .00000     .00000     .00000     .00000        826    
+Car.WaitTime                                .00000     .00000     .00000     .00000        826    
+Car.TranTime                                .00000     .00000     .00000     .00000        826    
+Car.OtherTime                               .00103      5.4983E-4 .00000     .05000        826    
+Car.TotalTime                               .00492      5.6212E-4 .00163     .05512        826    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        160    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         22    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        152    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        667    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .20938     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0165     (Insuf)    .00000     7.0000     1.0000    
+Human.NumberBusy                            .85077     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .17015     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12514     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04171     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        174.00    
+Reverse car.NumberOut                       174.00    
+Car.NumberIn                                827.00    
+Car.NumberOut                               826.00    
+Human.NumberSeized                          819.00    
+Human.ScheduledUtilization                  .17015    
+Automatic.NumberSeized                      182.00    
+Automatic.ScheduledUtilization              .04171    
+System.NumberOut                            1000.0    
+
+Beginning replication 16 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 16 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00392     (Insuf)    .00145     .00565        163    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        163    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        163    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        163    
+Reverse car.OtherTime                       .00000     (Insuf)    .00000     .00000        163    
+Reverse car.TotalTime                       .00392     (Insuf)    .00145     .00565        163    
+Car.VATime                                  .00395      5.5315E-5 .00157     .00581        783    
+Car.NVATime                                 .00000     .00000     .00000     .00000        783    
+Car.WaitTime                                 3.5090E-7  7.4019E-7 .00000      2.7475E-4    783    
+Car.TranTime                                .00000     .00000     .00000     .00000        783    
+Car.OtherTime                               .00115      4.9532E-4 .00000     .05000        783    
+Car.TotalTime                               .00510     (Corr)     .00157     .05492        783    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        131    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         35    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        128    
+Human booth.Queue.WaitingTime                4.2140E-7  8.7578E-7 .00000      2.7475E-4    652    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .15982     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .99781     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .81763     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16353     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11493     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03831     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              6.8689E-5 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        163.00    
+Reverse car.NumberOut                       163.00    
+Car.NumberIn                                783.00    
+Car.NumberOut                               783.00    
+Human.NumberSeized                          780.00    
+Human.ScheduledUtilization                  .16353    
+Automatic.NumberSeized                      166.00    
+Automatic.ScheduledUtilization              .03831    
+System.NumberOut                            946.00    
+
+Beginning replication 17 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 17 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00395     (Insuf)    .00155     .00576        147    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        147    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        147    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        147    
+Reverse car.OtherTime                        6.8027E-4 (Insuf)    .00000     .05000        147    
+Reverse car.TotalTime                       .00463     (Insuf)    .00155     .05568        147    
+Car.VATime                                  .00395      4.9346E-5 .00151     .00592        847    
+Car.NVATime                                 .00000     .00000     .00000     .00000        847    
+Car.WaitTime                                .00000     .00000     .00000     .00000        847    
+Car.TranTime                                .00000     .00000     .00000     .00000        847    
+Car.OtherTime                                8.2645E-4  4.0835E-4 .00000     .05000        847    
+Car.TotalTime                               .00477      4.1475E-4 .00151     .05466        847    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        146    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         25    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        122    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        702    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .17005     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0228     (Insuf)    .00000     7.0000     2.0000    
+Human.NumberBusy                            .86141     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .17228     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12021     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04007     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        147.00    
+Reverse car.NumberOut                       147.00    
+Car.NumberIn                                849.00    
+Car.NumberOut                               847.00    
+Human.NumberSeized                          824.00    
+Human.ScheduledUtilization                  .17228    
+Automatic.NumberSeized                      171.00    
+Automatic.ScheduledUtilization              .04007    
+System.NumberOut                            994.00    
+
+Beginning replication 18 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 18 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00399     (Insuf)    .00188     .00586        167    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        167    
+Reverse car.WaitTime                         1.3295E-6 (Insuf)    .00000      2.2203E-4    167    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        167    
+Reverse car.OtherTime                       .00150     (Insuf)    .00000     .05000        167    
+Reverse car.TotalTime                       .00548     (Insuf)    .00188     .05491        167    
+Car.VATime                                  .00390      6.6187E-5  8.9815E-4 .00590        759    
+Car.NVATime                                 .00000     .00000     .00000     .00000        759    
+Car.WaitTime                                .00000     .00000     .00000     .00000        759    
+Car.TranTime                                .00000     .00000     .00000     .00000        759    
+Car.OtherTime                                7.9051E-4 (Corr)     .00000     .05000        759    
+Car.TotalTime                               .00469     (Corr)      8.9815E-4 .05491        759    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        141    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         22    
+Reverse human booth.Queue.WaitingTime        1.5313E-6 (Insuf)    .00000      2.2203E-4    145    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        618    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .22898     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .89338     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberBusy                            .79306     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .15861     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11250     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03750     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue      5.5508E-5 (Insuf)    .00000     1.0000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        167.00    
+Reverse car.NumberOut                       167.00    
+Car.NumberIn                                760.00    
+Car.NumberOut                               759.00    
+Human.NumberSeized                          763.00    
+Human.ScheduledUtilization                  .15861    
+Automatic.NumberSeized                      163.00    
+Automatic.ScheduledUtilization              .03750    
+System.NumberOut                            926.00    
+
+Beginning replication 19 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 19 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00395     (Insuf)    .00182     .00563        148    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        148    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        148    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        148    
+Reverse car.OtherTime                       .00101     (Insuf)    .00000     .05000        148    
+Reverse car.TotalTime                       .00496     (Insuf)    .00182     .05452        148    
+Car.VATime                                  .00389      4.4516E-5 .00168     .00566        775    
+Car.NVATime                                 .00000     .00000     .00000     .00000        775    
+Car.WaitTime                                 6.6226E-8  1.3827E-7 .00000      5.1325E-5    775    
+Car.TranTime                                .00000     .00000     .00000     .00000        775    
+Car.OtherTime                                7.0968E-4  4.3421E-4 .00000     .05000        775    
+Car.TotalTime                               .00460      4.3367E-4 .00168     .05566        775    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        150    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         22    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        126    
+Human booth.Queue.WaitingTime                8.1989E-8  1.6779E-7 .00000      5.1325E-5    626    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .18420     (Insuf)    .00000     3.0000     1.0000    
+Car.WIP                                     .89110     (Insuf)    .00000     6.0000     1.0000    
+Human.NumberBusy                            .77917     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .15583     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .12050     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04017     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              1.2831E-5 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        149.00    
+Reverse car.NumberOut                       148.00    
+Car.NumberIn                                776.00    
+Car.NumberOut                               775.00    
+Human.NumberSeized                          752.00    
+Human.ScheduledUtilization                  .15583    
+Automatic.NumberSeized                      172.00    
+Automatic.ScheduledUtilization              .04017    
+System.NumberOut                            923.00    
+
+Beginning replication 20 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 20 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00391     (Insuf)    .00162     .00563        157    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        157    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        157    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        157    
+Reverse car.OtherTime                        3.1847E-4 (Insuf)    .00000     .05000        157    
+Reverse car.TotalTime                       .00423     (Insuf)    .00162     .05380        157    
+Car.VATime                                  .00389      6.3459E-5 .00124     .00639        796    
+Car.NVATime                                 .00000     .00000     .00000     .00000        796    
+Car.WaitTime                                 3.5938E-8  7.7066E-8 .00000      2.8607E-5    796    
+Car.TranTime                                .00000     .00000     .00000     .00000        796    
+Car.OtherTime                               .00138      6.7174E-4 .00000     .05000        796    
+Car.TotalTime                               .00527      6.6814E-4 .00124     .05531        796    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        149    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         30    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        128    
+Human booth.Queue.WaitingTime                4.4078E-8  9.1184E-8 .00000      2.8607E-5    649    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .16678     (Insuf)    .00000     3.0000     1.0000    
+Car.WIP                                     1.0507     (Insuf)    .00000     7.0000     2.0000    
+Human.NumberBusy                            .80724     (Insuf)    .00000     5.0000     3.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16145     (Insuf)    .00000     1.0000     .60000    
+Automatic.NumberBusy                        .12282     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04094     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              7.1517E-6 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        158.00    
+Reverse car.NumberOut                       157.00    
+Car.NumberIn                                798.00    
+Car.NumberOut                               796.00    
+Human.NumberSeized                          777.00    
+Human.ScheduledUtilization                  .16145    
+Automatic.NumberSeized                      179.00    
+Automatic.ScheduledUtilization              .04094    
+System.NumberOut                            953.00    
+
+Beginning replication 21 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 21 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00400     (Insuf)    .00190     .00525        161    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        161    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        161    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        161    
+Reverse car.OtherTime                        3.1056E-4 (Insuf)    .00000     .05000        161    
+Reverse car.TotalTime                       .00431     (Insuf)    .00190     .05487        161    
+Car.VATime                                  .00389      6.0887E-5 .00104     .00598        811    
+Car.NVATime                                 .00000     .00000     .00000     .00000        811    
+Car.WaitTime                                 5.6510E-7  1.1824E-6 .00000      4.5830E-4    811    
+Car.TranTime                                .00000     .00000     .00000     .00000        811    
+Car.OtherTime                                7.3983E-4  3.7794E-4 .00000     .05000        811    
+Car.TotalTime                               .00463      3.8150E-4 .00104     .05486        811    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        167    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         25    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        137    
+Human booth.Queue.WaitingTime                7.1165E-7  1.4608E-6 .00000      4.5830E-4    644    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .17452     (Insuf)    .00000     3.0000     1.0000    
+Car.WIP                                     .93854     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .81774     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16355     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .13271     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04424     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              1.1457E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        162.00    
+Reverse car.NumberOut                       161.00    
+Car.NumberIn                                811.00    
+Car.NumberOut                               811.00    
+Human.NumberSeized                          781.00    
+Human.ScheduledUtilization                  .16355    
+Automatic.NumberSeized                      192.00    
+Automatic.ScheduledUtilization              .04424    
+System.NumberOut                            972.00    
+
+Beginning replication 22 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 22 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00394     (Insuf)    .00197     .00567        143    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        143    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        143    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        143    
+Reverse car.OtherTime                       .00280     (Insuf)    .00000     .05000        143    
+Reverse car.TotalTime                       .00674     (Insuf)    .00197     .05486        143    
+Car.VATime                                  .00394      5.8102E-5  9.8752E-4 .00614        793    
+Car.NVATime                                 .00000     .00000     .00000     .00000        793    
+Car.WaitTime                                .00000     .00000     .00000     .00000        793    
+Car.TranTime                                .00000     .00000     .00000     .00000        793    
+Car.OtherTime                                5.6747E-4  6.0956E-4 .00000     .05000        793    
+Car.TotalTime                               .00451      6.1116E-4  9.8752E-4 .05478        793    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        133    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         26    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        117    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        662    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .24100     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .89419     (Insuf)    .00000     6.0000     2.0000    
+Human.NumberBusy                            .80943     (Insuf)    .00000     5.0000     2.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16189     (Insuf)    .00000     1.0000     .40000    
+Automatic.NumberBusy                        .11325     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03775     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        143.00    
+Reverse car.NumberOut                       143.00    
+Car.NumberIn                                795.00    
+Car.NumberOut                               793.00    
+Human.NumberSeized                          779.00    
+Human.ScheduledUtilization                  .16189    
+Automatic.NumberSeized                      159.00    
+Automatic.ScheduledUtilization              .03775    
+System.NumberOut                            936.00    
+
+Beginning replication 23 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 23 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00395     (Insuf)    .00216     .00545        153    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        153    
+Reverse car.WaitTime                         2.5017E-6 (Insuf)    .00000      3.8276E-4    153    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        153    
+Reverse car.OtherTime                        9.8039E-4 (Insuf)    .00000     .05000        153    
+Reverse car.TotalTime                       .00493     (Insuf)    .00216     .05536        153    
+Car.VATime                                  .00395     (Corr)     .00117     .00589        780    
+Car.NVATime                                 .00000     .00000     .00000     .00000        780    
+Car.WaitTime                                 5.7118E-6 (Corr)     .00000     .00271        780    
+Car.TranTime                                .00000     .00000     .00000     .00000        780    
+Car.OtherTime                                9.6154E-4  5.0790E-4 .00000     .05000        780    
+Car.TotalTime                               .00492      5.2605E-4 .00117     .05701        780    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        120    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         21    
+Reverse human booth.Queue.WaitingTime        2.8997E-6 (Insuf)    .00000      3.8276E-4    132    
+Human booth.Queue.WaitingTime                6.7503E-6 .00000     .00000     .00271        660    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .18876     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .95882     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .82639     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16528     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .09498     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03166     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue      9.5690E-5 (Insuf)    .00000     1.0000     .00000    
+Human booth.Queue.NumberInQueue             .00111     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        153.00    
+Reverse car.NumberOut                       153.00    
+Car.NumberIn                                780.00    
+Car.NumberOut                               780.00    
+Human.NumberSeized                          792.00    
+Human.ScheduledUtilization                  .16528    
+Automatic.NumberSeized                      141.00    
+Automatic.ScheduledUtilization              .03166    
+System.NumberOut                            933.00    
+
+Beginning replication 24 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 24 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00399     (Insuf)    .00125     .00593        176    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        176    
+Reverse car.WaitTime                         8.7432E-7 (Insuf)    .00000      1.5388E-4    176    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        176    
+Reverse car.OtherTime                        8.5227E-4 (Insuf)    .00000     .05000        176    
+Reverse car.TotalTime                       .00485     (Insuf)    .00125     .05566        176    
+Car.VATime                                  .00395      6.6347E-5 .00116     .00602        788    
+Car.NVATime                                 .00000     .00000     .00000     .00000        788    
+Car.WaitTime                                 2.2448E-6  4.3631E-6 .00000     .00162        788    
+Car.TranTime                                .00000     .00000     .00000     .00000        788    
+Car.OtherTime                                6.3452E-4  4.2689E-4 .00000     .05000        788    
+Car.TotalTime                               .00459      4.3406E-4 .00116     .05499        788    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        121    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         33    
+Reverse human booth.Queue.WaitingTime        1.0761E-6 (Insuf)    .00000      1.5388E-4    143    
+Human booth.Queue.WaitingTime                2.6520E-6  5.2920E-6 .00000     .00162        667    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .21322     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .90401     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .84733     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16947     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .10692     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03564     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue      3.8470E-5 (Insuf)    .00000     1.0000     .00000    
+Human booth.Queue.NumberInQueue              4.4223E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        176.00    
+Reverse car.NumberOut                       176.00    
+Car.NumberIn                                788.00    
+Car.NumberOut                               788.00    
+Human.NumberSeized                          810.00    
+Human.ScheduledUtilization                  .16947    
+Automatic.NumberSeized                      154.00    
+Automatic.ScheduledUtilization              .03564    
+System.NumberOut                            964.00    
+
+Beginning replication 25 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 25 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00380     (Insuf)    .00146     .00563        178    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        178    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        178    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        178    
+Reverse car.OtherTime                       .00197     (Insuf)    .00000     .05000        178    
+Reverse car.TotalTime                       .00577     (Insuf)    .00146     .05557        178    
+Car.VATime                                  .00387      4.6959E-5  7.9381E-4 .00585        811    
+Car.NVATime                                 .00000     .00000     .00000     .00000        811    
+Car.WaitTime                                 7.1240E-7  1.4906E-6 .00000      5.7776E-4    811    
+Car.TranTime                                .00000     .00000     .00000     .00000        811    
+Car.OtherTime                               .00111      4.7544E-4 .00000     .05000        811    
+Car.TotalTime                               .00498      4.8793E-4  7.9381E-4 .05496        811    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        157    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         38    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        140    
+Human booth.Queue.WaitingTime                8.8342E-7  1.8416E-6 .00000      5.7776E-4    654    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .25964     (Insuf)    .00000     3.0000     1.0000    
+Car.WIP                                     1.0099     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .81969     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16394     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .13427     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04476     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              1.4444E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        179.00    
+Reverse car.NumberOut                       178.00    
+Car.NumberIn                                811.00    
+Car.NumberOut                               811.00    
+Human.NumberSeized                          794.00    
+Human.ScheduledUtilization                  .16394    
+Automatic.NumberSeized                      195.00    
+Automatic.ScheduledUtilization              .04476    
+System.NumberOut                            989.00    
+
+Beginning replication 26 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 26 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00403     (Insuf)    .00161     .00597        153    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        153    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        153    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        153    
+Reverse car.OtherTime                        9.8039E-4 (Insuf)    .00000     .05000        153    
+Reverse car.TotalTime                       .00501     (Insuf)    .00161     .05529        153    
+Car.VATime                                  .00391      6.3715E-5 .00164     .00606        790    
+Car.NVATime                                 .00000     .00000     .00000     .00000        790    
+Car.WaitTime                                 1.7670E-6  3.4240E-6 .00000     .00127        790    
+Car.TranTime                                .00000     .00000     .00000     .00000        790    
+Car.OtherTime                                9.4937E-4  5.0790E-4 .00000     .05000        790    
+Car.TotalTime                               .00486      5.0682E-4 .00164     .05469        790    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        138    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         23    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        130    
+Human booth.Queue.WaitingTime                2.1344E-6  4.0583E-6 .00000     .00127        654    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .19164     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     .96147     (Insuf)    .00000     7.0000     2.0000    
+Human.NumberBusy                            .81622     (Insuf)    .00000     5.0000     2.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16324     (Insuf)    .00000     1.0000     .40000    
+Automatic.NumberBusy                        .11154     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03718     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue              3.4898E-4 (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        153.00    
+Reverse car.NumberOut                       153.00    
+Car.NumberIn                                792.00    
+Car.NumberOut                               790.00    
+Human.NumberSeized                          784.00    
+Human.ScheduledUtilization                  .16324    
+Automatic.NumberSeized                      161.00    
+Automatic.ScheduledUtilization              .03718    
+System.NumberOut                            943.00    
+
+Beginning replication 27 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 27 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00383     (Insuf)    .00148     .00581        154    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        154    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        154    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        154    
+Reverse car.OtherTime                        6.4935E-4 (Insuf)    .00000     .05000        154    
+Reverse car.TotalTime                       .00448     (Insuf)    .00148     .05415        154    
+Car.VATime                                  .00387      5.3634E-5 .00143     .00595        865    
+Car.NVATime                                 .00000     .00000     .00000     .00000        865    
+Car.WaitTime                                .00000     .00000     .00000     .00000        865    
+Car.TranTime                                .00000     .00000     .00000     .00000        865    
+Car.OtherTime                                8.6705E-4  5.2385E-4 .00000     .05000        865    
+Car.TotalTime                               .00474      5.3269E-4 .00143     .05522        865    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        177    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         37    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        117    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        689    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .17259     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0382     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberBusy                            .83801     (Insuf)    .00000     5.0000     1.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16760     (Insuf)    .00000     1.0000     .20000    
+Automatic.NumberBusy                        .14786     (Insuf)    .00000     2.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04929     (Insuf)    .00000     .66667     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        154.00    
+Reverse car.NumberOut                       154.00    
+Car.NumberIn                                866.00    
+Car.NumberOut                               865.00    
+Human.NumberSeized                          806.00    
+Human.ScheduledUtilization                  .16760    
+Automatic.NumberSeized                      214.00    
+Automatic.ScheduledUtilization              .04929    
+System.NumberOut                            1019.0    
+
+Beginning replication 28 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 28 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00405     (Insuf)    .00213     .00595        160    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        160    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        160    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        160    
+Reverse car.OtherTime                       .00125     (Insuf)    .00000     .05000        160    
+Reverse car.TotalTime                       .00530     (Insuf)    .00213     .05432        160    
+Car.VATime                                  .00391      6.3793E-5 .00122     .00586        790    
+Car.NVATime                                 .00000     .00000     .00000     .00000        790    
+Car.WaitTime                                .00000     .00000     .00000     .00000        790    
+Car.TranTime                                .00000     .00000     .00000     .00000        790    
+Car.OtherTime                               .00127      5.3880E-4 .00000     .05000        790    
+Car.TotalTime                               .00517      5.5080E-4 .00122     .05546        790    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        140    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         25    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        135    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        650    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .21208     (Insuf)    .00000     4.0000     .00000    
+Car.WIP                                     1.0216     (Insuf)    .00000     6.0000     .00000    
+Human.NumberBusy                            .81707     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16341     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11664     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03888     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        160.00    
+Reverse car.NumberOut                       160.00    
+Car.NumberIn                                790.00    
+Car.NumberOut                               790.00    
+Human.NumberSeized                          785.00    
+Human.ScheduledUtilization                  .16341    
+Automatic.NumberSeized                      165.00    
+Automatic.ScheduledUtilization              .03888    
+System.NumberOut                            950.00    
+
+Beginning replication 29 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 29 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00394     (Insuf)    .00188     .00540        174    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        174    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        174    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        174    
+Reverse car.OtherTime                        8.6207E-4 (Insuf)    .00000     .05000        174    
+Reverse car.TotalTime                       .00480     (Insuf)    .00188     .05423        174    
+Car.VATime                                  .00391      4.8132E-5 .00153     .00580        838    
+Car.NVATime                                 .00000     .00000     .00000     .00000        838    
+Car.WaitTime                                .00000     .00000     .00000     .00000        838    
+Car.TranTime                                .00000     .00000     .00000     .00000        838    
+Car.OtherTime                                8.9499E-4  4.4360E-4 .00000     .05000        838    
+Car.TotalTime                               .00480      4.3226E-4 .00153     .05501        838    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        137    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         30    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        144    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        701    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .20882     (Insuf)    .00000     3.0000     .00000    
+Car.WIP                                     1.0130     (Insuf)    .00000     6.0000     1.0000    
+Human.NumberBusy                            .87527     (Insuf)    .00000     5.0000     .00000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .17505     (Insuf)    .00000     1.0000     .00000    
+Automatic.NumberBusy                        .11514     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .03838     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        174.00    
+Reverse car.NumberOut                       174.00    
+Car.NumberIn                                839.00    
+Car.NumberOut                               838.00    
+Human.NumberSeized                          845.00    
+Human.ScheduledUtilization                  .17505    
+Automatic.NumberSeized                      167.00    
+Automatic.ScheduledUtilization              .03838    
+System.NumberOut                            1012.0    
+
+Beginning replication 30 of 30
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                  Summary for Replication 30 of 30
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+Replication ended at time      : 4.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reverse car.VATime                          .00391     (Insuf)    .00153     .00609        158    
+Reverse car.NVATime                         .00000     (Insuf)    .00000     .00000        158    
+Reverse car.WaitTime                        .00000     (Insuf)    .00000     .00000        158    
+Reverse car.TranTime                        .00000     (Insuf)    .00000     .00000        158    
+Reverse car.OtherTime                        6.3291E-4 (Insuf)    .00000     .05000        158    
+Reverse car.TotalTime                       .00455     (Insuf)    .00153     .05443        158    
+Car.VATime                                  .00392      4.4770E-5 .00155     .00580        793    
+Car.NVATime                                 .00000     .00000     .00000     .00000        793    
+Car.WaitTime                                .00000     .00000     .00000     .00000        793    
+Car.TranTime                                .00000     .00000     .00000     .00000        793    
+Car.OtherTime                               .00120      5.2396E-4 .00000     .05000        793    
+Car.TotalTime                               .00511      5.3034E-4 .00155     .05479        793    
+Automatic booth.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000        151    
+Reverse automatic booth.Queue.WaitingTime   .00000     (Insuf)    .00000     .00000         32    
+Reverse human booth.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000        127    
+Human booth.Queue.WaitingTime               .00000     .00000     .00000     .00000        643    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Reverse car.WIP                             .17994     (Insuf)    .00000     3.0000     1.0000    
+Car.WIP                                     1.0140     (Insuf)    .00000     7.0000     1.0000    
+Human.NumberBusy                            .80437     (Insuf)    .00000     5.0000     2.0000    
+Human.NumberScheduled                       5.0000     (Insuf)    5.0000     5.0000     5.0000    
+Human.Utilization                           .16087     (Insuf)    .00000     1.0000     .40000    
+Automatic.NumberBusy                        .12707     (Insuf)    .00000     3.0000     .00000    
+Automatic.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Automatic.Utilization                       .04236     (Insuf)    .00000     1.0000     .00000    
+Automatic booth.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Reverse automatic booth.Queue.NumberInQueu  .00000     (Insuf)    .00000     .00000     .00000    
+Reverse human booth.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Human booth.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reverse car.NumberIn                        159.00    
+Reverse car.NumberOut                       158.00    
+Car.NumberIn                                794.00    
+Car.NumberOut                               793.00    
+Human.NumberSeized                          770.00    
+Human.ScheduledUtilization                  .16087    
+Automatic.NumberSeized                      183.00    
+Automatic.ScheduledUtilization              .04236    
+System.NumberOut                            951.00    
+
+
+                                      ARENA Simulation Results
+                                     Nikolas - License: STUDENT
+
+                                 Output Summary for 30 Replications
+
+Project: Unnamed Project                                             Run execution date : 6/27/2021
+Analyst: Nikolas                                                     Model revision date: 6/27/2021
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Reverse car.NumberIn                        160.76     4.1013     140.00     180.00     30
+Reverse car.NumberOut                       160.60     4.1001     140.00     180.00     30
+Car.NumberIn                                803.96     9.9212     753.00     866.00     30
+Car.NumberOut                               803.10     9.8384     753.00     865.00     30
+Human.NumberSeized                          789.13     9.0156     734.00     845.00     30
+Human.ScheduledUtilization                  .16440     .00190     .15170     .17505     30
+Automatic.NumberSeized                      175.33     5.6251     141.00     214.00     30
+Automatic.ScheduledUtilization              .04053     .00129     .03166     .04929     30
+System.NumberOut                            963.70     11.011     904.00     1019.0     30
+
+Simulation run time: 0.47 minutes.
+Simulation run complete.

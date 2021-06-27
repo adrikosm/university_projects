@@ -1,0 +1,26 @@
+[RESOURCES]
+Human
+Automatic
+[VARIABLES]
+Electronic.NumberOut False
+Reverse human booth.NumberOut
+Reverse human booth.NumberIn
+Reverse not working.NumberOut False
+Reverse not working.NumberOut True
+Human booth.NumberIn
+Human booth.NumberOut
+Electronic.NumberOut True
+Automatic booth.NumberIn
+Reverse automatic exit.NumberOut
+Reverse human exit.NumberOut
+Reverse car flow.NumberOut
+Human exit.NumberOut
+Reverse automatic booth.NumberOut
+Car flow.NumberOut
+Not working.NumberOut True
+Not working.NumberOut False
+Reverse automatic booth.NumberIn
+Reverse electronic.NumberOut False
+Reverse electronic.NumberOut True
+Automatic exit.NumberOut
+Automatic booth.NumberOut
