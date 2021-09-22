@@ -301,3 +301,4 @@ plot_history(history_2,'acc')
 # Ολοκληρωμενο  προτζεκτ:
 https://colab.research.google.com/drive/1LG9LQjG4XfOGWHnsejellSGrZfqx630-?usp=sharing
 """
+
