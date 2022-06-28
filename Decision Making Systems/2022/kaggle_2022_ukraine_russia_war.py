@@ -41,15 +41,14 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import mean_absolute_error,r2_score,mean_squared_error,accuracy_score,f1_score
 from sklearn import preprocessing
 from sklearn.linear_model import LinearRegression
-from sklearn.linear_model import Ridge,RidgeCV,Lasso
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import SGDRegressor
 from sklearn.linear_model import LassoCV
+from sklearn.model_selection import RandomizedSearchCV,GridSearchCV
 
 
 # IMPORTS FOR EDA
 import matplotlib.pyplot as plt
-from matplotlib.widgets import Slider
 import seaborn as sns
 import plotly
 import plotly.graph_objs as go
@@ -124,18 +123,6 @@ fig.update_layout(title="Total Deaths",
                   yaxis_title="Deaths")
 fig.show()
 
-# creating the dataset
-data = {'C':20, 'C++':15, 'Java':30,
-        'Python':35}
-courses = list(data.keys())
-values = list(data.values())
-  
-fig = plt.figure(figsize = (10, 5))
- 
-# creating the bar plot
-plt.bar(courses, values, color ='maroon',
-        width = 0.4)
-
 # Plot out the new daily deaths
 fig = plt.figure(figsize = (20, 14))
 plt.bar(personel_loss['day'],personel_loss['deaths per day'],width=0.6,)
@@ -164,13 +151,6 @@ fig = go.Figure(data=[go.Pie(labels=['deaths','Prisoners'], values=[total_deaths
 fig.show()
 
 """Time to plot out the Equipment loss dataframe"""
-
-# Plot out a correleation heatmap
-
-fig = plt.figure(figsize = (15, 15))
-heatmap = sns.heatmap(equipment_loss.corr(), vmin=-1, vmax=1, annot=True)
-heatmap.set_title('Correlation Heatmap', fontdict={'fontsize':18}, pad=12);
-plt.show()
 
 def add_fig_trace(x,y,label):
   return fig.add_trace(go.Scatter(x=x, y=y,
@@ -274,22 +254,39 @@ def plot_predictions(train_data,
   plt.show();
 
 # Makes a train test split and normalizes data
-def make_data(X,y):
+def make_data(X,y,normal):
+
   X_train, X_test, y_train, y_test = train_test_split(
       X, 
       y, 
-      test_size=0.10)
+      test_size=0.2)
+  
+  # Setup unseen values
+  unseen_values = pd.DataFrame([123,124,125,126,127,128,129,130])
+  # size_of_X = int(len(X)*0.8)
+  # size_of_y = int(len(y)*0.8)
+
+  # X_train = X[:size_of_X]
+  # X_test  = X[size_of_X:]
+  # y_train = y[:size_of_y]
+  # y_test  = y[size_of_X:]
+
+
+
   X_train = pd.DataFrame(X_train)
   X_test = pd.DataFrame(X_test)
   y_train = pd.DataFrame(y_train)
   y_test = pd.DataFrame(y_test)
+
   # Normalize data
-  scaler = StandardScaler()
-  X_train = scaler.fit_transform(X_train)
-  X_test = scaler.transform(X_test)
-  # Setup unseen values
-  unseen_values = pd.DataFrame([123,124,125,126,127,128,129,130])
-  unseen_values = scaler.transform(unseen_values)
+  if normal:
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+    unseen_values = scaler.transform(unseen_values)
+
+
+
 
 
   return X_train, X_test, y_train, y_test,unseen_values
@@ -297,7 +294,7 @@ def make_data(X,y):
 plt.figure(figsize=(10,6))
 
  
-X_train, X_test, y_train, y_test ,unseen_values = make_data(personel_loss['day'],personel_loss['personnel'])
+X_train, X_test, y_train, y_test ,unseen_values = make_data(personel_loss['day'],personel_loss['personnel'],normal=False)
 
 
 plot_predictions(X_train,
@@ -341,7 +338,7 @@ plot_predictions(X_train,
 
 """## Personnel Model 2 Lasso Regression with crossvalidation"""
 
-lasso = LassoCV(alphas = [0.0001, 0.001,0.01, 0.1, 1, 10]).fit(X_train, y_train.values.reshape(len(y_train),))
+lasso = LassoCV().fit(X_train, y_train.values.reshape(len(y_train),))
 
 y_pred_lasso = lasso.predict(X_test)
 
@@ -399,7 +396,7 @@ plt.show()
 Strating with APC
 """
 
-X_train, X_test, y_train, y_test ,unseen_values = make_data(equipment_loss['day'],equipment_loss['APC'])
+X_train, X_test, y_train, y_test ,unseen_values = make_data(equipment_loss['day'],equipment_loss['APC'],normal=False)
 
 plot_predictions(X_train,
                  y_train,
@@ -408,8 +405,6 @@ plot_predictions(X_train,
                  None,
                  None,
                  False)
-
-y_test.shape
 
 """## APC Model 1 Linear Regression"""
 
@@ -453,8 +448,6 @@ y_pred_lasso = apc_lasso.predict(X_test)
 int_pred_lasso = []
 for item in y_pred_lasso:
   int_pred_lasso.append(int(item))
-
-len(int_pred_lasso)
 
 print("Accuracy : " , accuracy_score(y_test, int_pred_lasso))
 print("F1",f1_score(y_test,int_pred_lasso, average='micro'))
@@ -501,7 +494,7 @@ plt.show()
 from catboost import CatBoostRegressor
 
 # Get artilery field data
-X_train, X_test, y_train, y_test ,unseen_values = make_data(equipment_loss['day'],equipment_loss['field artillery'])
+X_train, X_test, y_train, y_test ,unseen_values = make_data(equipment_loss['day'],equipment_loss['field artillery'],normal=True)
 
 cat_boost_model = CatBoostRegressor()
 cat_boost_model.fit(X_train,y_train)
@@ -622,10 +615,8 @@ model_results_df = pd.DataFrame(model_results,columns=["model","accuracy","f1",'
 model_results_df
 
 model_results_df.plot(x="model",y=['R^2','MAE','RMSE'],kind="bar",figsize=(10,6))
-plt.suptitle("Field Artillery Model")
-plt.title("Lower is Better")
+plt.title("Field Artillery Model")
 plt.xticks(rotation="horizontal");
 
 model_results_df.plot(x="model",y=["accuracy","f1"],kind="bar",figsize=(10,6))
 plt.xticks(rotation="horizontal");
-
